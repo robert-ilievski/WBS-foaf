@@ -1,1 +1,39 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Robert Ilievski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Robert" ;
+  foaf:family_name "Ilievski" ;
+  foaf:nick "Bobi" ;
+  foaf:mbox_sha1sum "acf0789f7952908bf4ed8a7eb251da0d04e0b9d9" ;
+  foaf:homepage <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/181523> ;
+  foaf:depiction <https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500> ;
+  foaf:phone <tel:+38972123456> ;
+  foaf:workplaceHomepage <https://finki.ukim.mk/> ;
+  foaf:workInfoHomepage <https://finki.ukim.mk/en/content/software-engineering-and-information-systems> ;
+  foaf:schoolHomepage <https://www.nikolakarev.edu.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Milos Jovanovikj" ;
+    foaf:mbox_sha1sum "ab65e252317d3401ccab837eaae13bd37378b844" ;
+    rdfs:seeAlso <http://mjovanovikj.com/foaf.ttl#>
+  ], [
+    a foaf:Person ;
+    foaf:name "Petar Petarovski" ;
+    foaf:mbox_sha1sum "76838d2d1efdb6df31b308154f9de7a962721ed1"
+  ], [
+    a foaf:Person ;
+    foaf:name "Martin Martinoski" ;
+    foaf:mbox_sha1sum "dbaa713e0775bd90f7cafc773ae36755c90a67a2"
+  ] .
