@@ -30,8 +30,9 @@
     rdfs:seeAlso <http://mjovanovikj.com/foaf.ttl#>
   ], [
     a foaf:Person ;
-    foaf:name "Petar Petarovski" ;
-    foaf:mbox_sha1sum "76838d2d1efdb6df31b308154f9de7a962721ed1"
+    foaf:name "Filip Tanevski" ;
+    foaf:mbox_sha1sum "76838d2d1efdb6df31b308154f9de7a962721ed1" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/ftanevski/WBS_D5_CreatingLinkedData/main/foaf.ttl>
   ], [
     a foaf:Person ;
     foaf:name "Martin Martinoski" ;
