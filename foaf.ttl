@@ -27,10 +27,10 @@
     a foaf:Person ;
     foaf:name "Filip Tanevski" ;
     foaf:mbox_sha1sum "76838d2d1efdb6df31b308154f9de7a962721ed1" ;
-    rdfs:seeAlso <https://raw.githubusercontent.com/ftanevski/WBS_D5_CreatingLinkedData/main/foaf.ttl>
+    rdfs:seeAlso <https://raw.githubusercontent.com/ftanevski/WBS_D5_CreatingLinkedData/main/foaf.ttl#me>
   ], [
     a foaf:Person ;
     foaf:name "Igor Ilievski" ;
     foaf:mbox_sha1sum "dbaa713e0775bd90f7cafc773ae36755c90a67a2" ;
-    rdfs:seeAlso <https://www.dropbox.com/s/yaipc3lg80qb9xi/foaf.ttl?dl=1>
+    rdfs:seeAlso <https://www.dropbox.com/s/yaipc3lg80qb9xi/foaf.ttl?dl=1#me>
   ] .
