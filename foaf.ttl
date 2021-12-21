@@ -25,11 +25,6 @@
   foaf:schoolHomepage <https://www.nikolakarev.edu.mk/> ;
   foaf:knows [
     a foaf:Person ;
-    foaf:name "Milos Jovanovikj" ;
-    foaf:mbox_sha1sum "ab65e252317d3401ccab837eaae13bd37378b844" ;
-    rdfs:seeAlso <http://mjovanovikj.com/foaf.ttl#>
-  ], [
-    a foaf:Person ;
     foaf:name "Filip Tanevski" ;
     foaf:mbox_sha1sum "76838d2d1efdb6df31b308154f9de7a962721ed1" ;
     rdfs:seeAlso <https://raw.githubusercontent.com/ftanevski/WBS_D5_CreatingLinkedData/main/foaf.ttl>
