@@ -35,6 +35,7 @@
     rdfs:seeAlso <https://raw.githubusercontent.com/ftanevski/WBS_D5_CreatingLinkedData/main/foaf.ttl>
   ], [
     a foaf:Person ;
-    foaf:name "Martin Martinoski" ;
-    foaf:mbox_sha1sum "dbaa713e0775bd90f7cafc773ae36755c90a67a2"
+    foaf:name "Igor Ilievski" ;
+    foaf:mbox_sha1sum "dbaa713e0775bd90f7cafc773ae36755c90a67a2" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/yaipc3lg80qb9xi/foaf.ttl?dl=1>
   ] .
